@@ -1,0 +1,27 @@
+.nav-header{
+    padding: 10px;
+    background-image: linear-gradient(to right,white,lightblue,black,lightblue,white);
+}
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.website-logo{
+    background-color: lightcoral;
+    color: white;
+    border-radius: 100%;
+    padding: 20px;
+}
+.menu-item{
+    padding: 4px;
+    margin: 5px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
